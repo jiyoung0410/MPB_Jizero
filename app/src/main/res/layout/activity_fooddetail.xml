@@ -25,12 +25,24 @@
         android:layout_height="wrap_content"
         android:maxLines="1"
         android:textSize="24dp"
-        android:text="크림파스타는"
+        android:text="크림파스타"
         android:layout_marginStart="22dp"
         android:layout_marginTop="38dp"
         android:fontFamily="@font/pretendard_bold"
         app:layout_constraintTop_toBottomOf="@id/detail_food_cancel_iv"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/food_name_equal_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textSize="24dp"
+        android:layout_marginTop="38dp"
+        android:text="는"
+        android:fontFamily="@font/pretendard_bold"
+        app:layout_constraintStart_toEndOf="@id/food_name_tv"
+        app:layout_constraintTop_toBottomOf="@id/detail_food_cancel_iv" />
 
     <TextView
         android:id="@+id/food_kcal_num_tv"
